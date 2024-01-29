@@ -1,4 +1,4 @@
-# jellygray
+# jellyfinskin
 A clean jellyfin skin with joy of gray.
 
 ## Installation
@@ -9,7 +9,7 @@ A clean jellyfin skin with joy of gray.
   - `Details Banner: uncheck`
 2. Add below line in `Custom CSS code`
 ```css
-@import url('https://frecode.github.io/jellygray/theme.css');
+@import url('https://frecode.github.io/jellyfinskin/theme.css');
 ```
 
 ## To enable fanart/logo
