@@ -9,7 +9,7 @@ A clean jellyfin skin with joy of gray.
   - `Details Banner: uncheck`
 2. Add below line in `Custom CSS code`
 ```css
-@import url('https://pratimes.github.io/jellygray/theme.css');
+@import url('https://frecode.github.io/jellygray/theme.css');
 ```
 
 ## To enable fanart/logo
@@ -24,7 +24,7 @@ A clean jellyfin skin with joy of gray.
 ## Nginx
 If you are using nginx as a reverse proxy for Jellyfin, replace the "add_header Content-Security-Policy" in your nginx config with this line below
 ```
-add_header Content-Security-Policy "default-src https: data: blob: http://image.tmdb.org; style-src 'self' 'unsafe-inline' https://pratimes.github.io ; script-src 'self' 'unsafe-inline' https://www.gstatic.com/cv/js/sender/v1/cast_sender.js https://www.youtube.com blob:; worker-src 'self' blob:; connect-src 'self'; object-src 'none'; frame-ancestors 'self'";
+add_header Content-Security-Policy "default-src https: data: blob: http://image.tmdb.org; style-src 'self' 'unsafe-inline' https://frecode.github.io ; script-src 'self' 'unsafe-inline' https://www.gstatic.com/cv/js/sender/v1/cast_sender.js https://www.youtube.com blob:; worker-src 'self' blob:; connect-src 'self'; object-src 'none'; frame-ancestors 'self'";
 ```
 ## Images
 #### Login
